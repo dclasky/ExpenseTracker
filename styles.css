@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputdiv {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    height: 5vh;
+}
+
+.inputs {
+    margin: 10px;
+}
+
+.tableformat {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width: 50%;
+}
+
+tbody>tr>:nth-child(1) {
+    text-align: right;
+}
+
+thead>tr>:nth-child(1) {
+    text-align: right;
+}
+
+tfoot>tr>:nth-child(1) {
+    text-align: right;
+}
+
+.spacer {
+    height: 5vh;
+    width: 5vw;
+}
+
+.inputsubdiv {
+    height: auto;
+    width: auto;
+}
